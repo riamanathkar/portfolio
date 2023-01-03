@@ -17,7 +17,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(../images/profilecover.png);
+    background-image: url(images/profilecover.png);
     background-size: cover;
     background-positon: center;
     background-attachment: fixed;
@@ -466,7 +466,7 @@ label{
 
 #contact{
     margin-top: 100px;
-    background-image: url(../images/contact-back.png);
+    background-image: url(images/contact-back.png);
     position: absolute;
     width: 100%;
     height: 375px;
@@ -553,7 +553,7 @@ label{
 
 #footer{
     margin-top: 400px;
-    background-image: url(../images/footer-back.png);
+    background-image: url(images/footer-back.png);
     /* position: absolute; */
     /* width: 100%; */
     /* height: 80px; */
