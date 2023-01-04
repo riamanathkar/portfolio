@@ -263,7 +263,7 @@ nav ul li a:hover::after{
     transition: height 0.5s;
 
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
     letter-spacing: 1px;
 
