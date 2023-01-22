@@ -1,0 +1,255 @@
+/* ----------------ADVENTURE PAGE---------------------------- */
+#header-adventure{
+    width: 100%;
+height: 552px;
+    background-image: url(images/project-back.png);
+    background-size: cover;
+    background-positon: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.container{
+    padding : 30px 10%;
+}
+.header-title{
+    align-items: center;
+    text-align: center;
+}
+.header-title img{
+    margin-top: 80px;
+    /* margin: 20px; */
+    width: 516.37px;
+height: 62.97px;
+}
+
+.header-roles{
+    align-items: center;
+    text-align: center;
+}
+.header-roles img{
+    margin-top: 70px;
+    /* margin: 20px; */
+    width: 815.97px;
+    height: 124px;
+
+}
+/* ------ challenge ------ */
+#challenge{
+    padding: 80px 0;
+    color: #0E4DA4;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.challenge-col-1{
+    flex-basis: 50%;
+}
+
+.challenge-heading{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+
+    color: #494747;
+}
+
+.challenge-heading h1{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 76px;  
+
+    color: #0E4DA4;
+}
+.challenge-col-1{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+ 
+    color: #494747;
+}
+.challenge-col-1 ul li{
+    margin-top: 10px;
+}
+
+.challenge-col-2{
+    margin-top: 20px;
+    flex-basis: 35%;
+}
+
+.challenge-col-2 img{
+    width: 294.13px;
+    height: 327px;
+    transition: transform 0.5s;
+}
+.challenge-col-2:hover img{
+    transform: scale(1.1);
+}
+/* ------ process ------ */
+.banner{
+    margin-top: 20px;
+    position: absolute;
+    background: linear-gradient(90deg, #00C2FF 0%, #14FF00 100%);
+    opacity: 0.1;
+    width: 100%;
+    height: 194px;
+    top: 1220px;
+}
+.process-header{
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 76px;
+
+    text-align: center;
+    color: #0E4DA4;
+}
+/* ------ background research ------ */
+#process{
+    padding: 100px 0;
+    /* margin-top: 20px; */
+}
+.process-col-1{
+    flex-basis: 40%;
+}
+.process-col-1 h1{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 76px;  
+
+    color: #0E4DA4;
+}
+.data-analysis-text{
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+ 
+    color: #494747;
+}
+.data-analysis-text h2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 64px;
+
+    color: #000000;
+}
+.think-aloud-text{
+    margin-top: 175px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+ 
+    color: #494747;
+    margin-bottom: 300px;
+}
+.think-aloud-text h2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 64px;
+
+    color: #000000;
+}
+.process-col-2{
+    flex-basis: 50%;
+}
+/* .box2{
+    margin-top: 90px;
+    justify-content: flex-start;
+    align-items: center;
+    /* display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px; 
+} */
+/* .data-vis{
+    height: 300px;
+}
+.data-vis img{
+    height: 100%;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 6px;
+    transition: all 0.5s;
+}
+
+.data-vis img:hover{
+   transform: scale(1.05);
+} */
+/* .insight img{
+    height: 100%;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 6px;
+    transition: all 0.5s;
+}
+
+.insight img:hover{
+   transform: scale(1.05);
+} */
+/* .affinity-diagram img{
+    width: 525px;
+    height: 350px;
+    transition: all 0.5s;
+}
+.affinity-diagram img:hover{
+    transform: scale(1.05);
+ } */
+.contextual-research-text{
+    margin-left: 60px;
+    margin-top: 175px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+ 
+    color: #494747;
+    /* margin-bottom: 300px; */
+}
+.contextual-research-text h2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 64px;
+
+    color: #000000;
+}
+/* .model img{
+    transition: all 0.5s;
+}
+.model img:hover{
+    transform: scale(1.05);
+ } */
+ .synthesis-text{
+    /* margin-left: 60px; */
+    margin-top: 175px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+ 
+    color: #494747;
+    column-span: all;
+    /* margin-bottom: 300px; */
+}
+.synthesis-text h2{
+    /* margin-left: 60px; */
+    /* margin-top: 175px; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+ 
+    color: #494747;
+    column-span: all;
+    flex-wrap:wrap;
+}

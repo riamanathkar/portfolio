@@ -342,9 +342,9 @@ nav ul li a:hover::after{
 .box{
     justify-content: flex-start;
     align-items: center;
-    display:block;
-    /* grid-template-columns: repeat(3, 1fr); */
-    /* grid-gap: 20px; */
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
 }
 .photo{
     height: 400px;
@@ -629,6 +629,7 @@ height: 62.97px;
     line-height: 28px;
  
     color: #494747;
+    margin-bottom: 200px;
 }
 .think-aloud-text h2{
     font-style: normal;
@@ -639,17 +640,18 @@ height: 62.97px;
     color: #000000;
 }
 .process-col-2{
-    flex-basis: 55%;
+    flex-basis: 50%;
 }
-.box2{
+/* .box2{
     margin-top: 90px;
     justify-content: flex-start;
     align-items: center;
-    /* display:grid;
+    display:grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px; */
-}
+    grid-gap: 20px; 
+} */
 .data-vis{
+    margin-top: 90px;
     height: 300px;
 }
 .data-vis img{
@@ -665,8 +667,8 @@ height: 62.97px;
    transform: scale(1.05);
 }
 .insight img{
-    height: 100%;
     width: 100%;
+    height: 100%;
     display: block;
     object-fit: cover;
     border-radius: 6px;
@@ -675,6 +677,64 @@ height: 62.97px;
 
 .insight img:hover{
    transform: scale(1.05);
+}
+.affinity-diagram img{
+    margin-top: 75px;
+    width: 525px;
+    height: 350px;
+    transition: all 0.5s;
+}
+.affinity-diagram img:hover{
+    transform: scale(1.05);
+ }
+.contextual-research-text{
+    margin-left: 60px;
+    margin-top: 175px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+ 
+    color: #494747;
+    /* margin-bottom: 300px; */
+}
+.contextual-research-text h2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 64px;
+
+    color: #000000;
+}
+.model img{
+    transition: all 0.5s;
+}
+.model img:hover{
+    transform: scale(1.05);
+ }
+ .synthesis-text{
+    /* margin-left: 60px; */
+    margin-top: 175px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+ 
+    color: #494747;
+    column-span: all;
+    /* margin-bottom: 300px; */
+}
+.synthesis-text h2{
+    /* margin-left: 60px; */
+    /* margin-top: 175px; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+ 
+    color: #494747;
+    /* column-span: all; */
+    /* flex-wrap:wrap; */
 }
 
 /* ----------------NEGOTIUM PAGE---------------------------- */
