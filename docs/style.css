@@ -13,6 +13,8 @@ body{
     color: #263238
 
 }
+.highlightme { background-color:#DFF7FF; }
+/* p { background-color:#FFFFFF; } */
 
 #header{
     width: 100%;
@@ -482,11 +484,11 @@ nav ul li a:hover::after{
 /* ----------------ADVENTURE PAGE---------------------------- */
 #header-adventure{
     width: 100%;
-height: 552px;
-    background-image: url(images/project-back.png);
+height: 858px;
+    background-image: url(images/adventure/adventure-title1.png);
     background-size: cover;
     background-positon: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-repeat: no-repeat;
 }
 .container{
@@ -500,7 +502,7 @@ height: 552px;
     margin-top: 80px;
     /* margin: 20px; */
     width: 516.37px;
-height: 62.97px;
+    height: 62.97px;
 }
 
 .header-roles{
@@ -514,10 +516,41 @@ height: 62.97px;
     height: 124px;
 
 }
-/* ------ challenge ------ */
-#challenge{
+/* ------ user research ------ */
+#user-research{
     padding: 80px 0;
-    color: #0E4DA4;
+    width: 100%;
+    height: 1200px;
+    /* color: #0E4DA4; */
+    background-image: url(images/adventure/adventure-user-back.png);
+    background-position-x: center;
+}
+/* ------ placeholder ------ */
+#adventure-placeholder img{
+    object-fit: cover;
+    margin-top: 80px;
+    height: 100%;
+    width: 100%;
+    position: center;
+    /* height: 1200px; */
+}
+/* ------ final ------ */
+#adventure-final img{
+    object-fit: cover;
+    margin-top: 80px;
+    height: 100%;
+    width: 100%;
+    position: center;
+    /* height: 1200px; */
+}
+/* ------ challenge ------
+#challenge{
+    /* padding: 80px 0;
+    width: 100%;
+    height: 1200px;
+    /* color: #0E4DA4;
+    background-image: url(images/adventure/adventure-user-back.png);
+    background-positon: center;
 }
 .row{
     display: flex;
@@ -588,7 +621,7 @@ height: 62.97px;
 
     text-align: center;
     color: #0E4DA4;
-}
+} */
 /* ------ background research ------ */
 #process{
     padding: 100px 0;
@@ -597,7 +630,7 @@ height: 62.97px;
 .process-col-1{
     flex-basis: 40%;
 }
-.process-col-1 h1{
+.process-col-2 h1{
     font-weight: 600;
     font-size: 40px;
     line-height: 76px;  
@@ -714,11 +747,12 @@ height: 62.97px;
  }
  .synthesis-text{
     /* margin-left: 60px; */
-    margin-top: 175px;
-    font-style: normal;
+    margin-top: 100px;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
+    line-height: 24px;
     line-height: 28px;
+    text-align: center;
  
     color: #494747;
     column-span: all;
@@ -727,10 +761,10 @@ height: 62.97px;
 .synthesis-text h2{
     /* margin-left: 60px; */
     /* margin-top: 175px; */
-    font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
  
     color: #494747;
     /* column-span: all; */
