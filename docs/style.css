@@ -774,12 +774,21 @@ height: 858px;
 /* ----------------NEGOTIUM PAGE---------------------------- */
 #header-negotium{
     width: 100%;
-height: 552px;
-    background-image: url(images/project-back.png);
+    height: 858px;
+    background-image: url(images/negotium/negotium-title.png);
     background-size: cover;
     background-positon: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-repeat: no-repeat;
+}
+
+#negotium-placeholder img{
+    object-fit: cover;
+    margin-top: 80px;
+    height: 100%;
+    width: 100%;
+    position: center;
+    /* height: 1200px; */
 }
 .container{
     padding : 30px 10%;
@@ -795,17 +804,15 @@ height: 552px;
     height: 107.83px;
 }
 
-.negotium-roles{
-    align-items: center;
-    text-align: center;
+/* ------ final ------ */
+#negotium-final img{
+    object-fit: cover;
+    margin-top: 80px;
+    height: 100%;
+    width: 100%;
+    position: center;
+    /* height: 1200px; */
 }
-.negotium-roles img{
-    margin-top: 70px;
-    /* margin: 20px; */
-    width: 908px;
-    height: 124px;
-}
-
 
 
 /* ------ small screens ------ */
