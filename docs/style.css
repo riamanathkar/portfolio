@@ -341,13 +341,31 @@ nav ul li a:hover::after{
     align-items: center;
     margin: 40px;
 }
-.box{
+.container .box{
     justify-content: flex-start;
     align-items: center;
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
 }
+
+.container .box .photo:nth-child(10),
+.container .box .photo:nth-child(11),
+.container .box .photo:nth-child(12),
+.container .box .photo:nth-child(13),
+.container .box .photo:nth-child(14),
+.container .box .photo:nth-child(15),
+.container .box .photo:nth-child(16),
+.container .box .photo:nth-child(17),
+.container .box .photo:nth-child(18),
+.container .box .photo:nth-child(19),
+.container .box .photo:nth-child(20),
+.container .box .photo:nth-child(21),
+.container .box .photo:nth-child(22),
+.container .box .photo:nth-child(23){
+    display:none;
+}
+
 .photo{
     height: 400px;
 }
@@ -363,7 +381,6 @@ nav ul li a:hover::after{
 .photo img:hover{
    transform: scale(1.05);
 }
-
 
 .btn2{
     display: flex;
@@ -394,11 +411,58 @@ nav ul li a:hover::after{
     color: white;
 }
 
+#load-more{
+    /* margin-top: 20px;
+    display: block;
+    width: fit-content;
+    padding: 10px 30px;
+    border: 1px solid rgba(151, 151, 151, 0.8);
+    color: rgba(151, 151, 151, 0.8);
+    font-size:16px;
+    background-color: #FFFFFF;
+    transition: all 0.5s; */
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #0E4DA4;
+    padding: 14px 50px;
+    text-decoration: none;
+    color: #303e45;
+    transition: all 0.5s;
+}
+
+#load-more:hover{
+    background: #0E4DA4;
+    color: white;
+}
+
+#load-less{
+    /* display: block; */
+    font-weight: 500;
+    font-size: 16px;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #0E4DA4;
+    padding: 14px 50px;
+    text-decoration: none;
+    color: #303e45;
+    transition: all 0.5s;
+    display: none;
+}
+
+#load-less:hover{
+    background: #0E4DA4;
+    color: white;
+}
+
+
 
 /* ------ contact ------ */
 
 #contact{
-    margin-top: 100px;
+    margin-top: 10px;
     background-image: url(images/contact-back.png);
     position: absolute;
     width: 100%;
@@ -468,7 +532,7 @@ nav ul li a:hover::after{
 /* ------ footer ------ */
 
 #footer{
-    margin-top: 400px;
+    margin-top: 315px;
     background-image: url(images/footer-back.png);
 }
 .container{

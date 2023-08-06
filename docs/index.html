@@ -200,7 +200,8 @@
                         <a href ="images/gallery/other-2.jpg" data-lightbox = "mygallery"><img src="images/gallery/other-2.jpg" class ="gallery img"></a>
                     </div>
                 </div>
-
+                <div id = "load-more"> Load More </div>
+                <div id = "load-less"> Load Less </div>
             </div>
         </div>
         <!-- -------- contact ------- -->
@@ -234,6 +235,31 @@
               'resizeDuration': 50,
               'wrapAround': true
             })
+        </script>
+
+        <script>
+            let loadMoreBtn = document.querySelector('#load-more');
+            let loadLessBtn = document.querySelector('#load-less');
+            let currentItem = 10;
+            
+            loadMoreBtn.onclick = () =>{
+                let photos = [...document.querySelectorAll('.container .box .photo')];
+                for (var i = currentItem; i < photos.length; i++){
+                    photos[i].style.display = 'grid';
+                    photos[i].style.height = '100%';
+                }
+                loadMoreBtn.style.display = 'none';
+                loadLessBtn.style.display = 'block';
+            }
+
+            loadLessBtn.onclick = () =>{
+                let photos = [...document.querySelectorAll('.container .box .photo')];
+                for (var i = currentItem; i < photos.length; i++){
+                    photos[i].style.display = 'none';
+                }
+                loadMoreBtn.style.display = 'block';
+                loadLessBtn.style.display = 'none';
+            }
         </script>
     </body>
 </html>
